@@ -4,9 +4,13 @@ package com.tnsif.daythree.scanner;
 //function to calculate tax
 public class TaxCalculation {
 
+	
+	
 //accessmodi RT   Method nam  Para	
 	public void calculateTax(Person person)
-	{                                        // female / FEMALE / FeMaLe
+	{    
+		int b=10;
+		// female / FEMALE / FeMaLe
 		if (person.getAge() >65 || person.getGender().equalsIgnoreCase("female"))
 		{
 			person.setTax(0);
@@ -32,6 +36,9 @@ public class TaxCalculation {
 				person.setTax((person.getIncome() - 800000)* 30/100 + 94000);
 			}
 		}
+		
+	
+		
 	}
 	
 	
