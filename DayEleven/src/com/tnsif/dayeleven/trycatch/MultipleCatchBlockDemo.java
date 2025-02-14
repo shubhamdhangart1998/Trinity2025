@@ -7,6 +7,8 @@ public class MultipleCatchBlockDemo {
 		System.out.println("I am main method ");
 		Division.divide();
 		
+		
+		
 
 	}
 
