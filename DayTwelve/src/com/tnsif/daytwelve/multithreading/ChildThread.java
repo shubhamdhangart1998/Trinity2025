@@ -19,7 +19,7 @@ public class ChildThread extends Thread{
 		{
 			try
 			{
-				Thread.sleep(1000);
+				Thread.sleep(5000);
 			}
 			catch (InterruptedException e)
 			{
